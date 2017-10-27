@@ -1,0 +1,77 @@
+
+Gurobi 7.5.1 (mac64, Python) logging started Fri Oct 27 15:33:31 2017
+
+Academic license - for non-commercial use only
+Optimize a model with 180 rows, 5490 columns and 23158 nonzeros
+Variable types: 0 continuous, 5490 integer (5490 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+02, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+02]
+Found heuristic solution: objective 4207
+Presolve removed 73 rows and 4621 columns
+Presolve time: 0.05s
+Presolved: 107 rows, 869 columns, 4020 nonzeros
+Found heuristic solution: objective 4489.0000000
+Variable types: 0 continuous, 869 integer (868 binary)
+
+Root relaxation: objective 5.601128e+03, 319 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 5601.12767    0    7 4489.00000 5601.12767  24.8%     -    0s
+H    0     0                    5379.0000000 5601.12767  4.13%     -    0s
+H    0     0                    5402.0000000 5601.12767  3.69%     -    0s
+     0     0 5592.38022    0   37 5402.00000 5592.38022  3.52%     -    0s
+H    0     0                    5415.0000000 5592.38022  3.28%     -    0s
+H    0     0                    5569.0000000 5592.38022  0.42%     -    0s
+     0     0 5588.33603    0    9 5569.00000 5588.33603  0.35%     -    0s
+     0     0 5588.33603    0    6 5569.00000 5588.33603  0.35%     -    0s
+     0     0 5587.30910    0    8 5569.00000 5587.30910  0.33%     -    0s
+     0     0 5583.67000    0   12 5569.00000 5583.67000  0.26%     -    0s
+     0     0 5583.67000    0   51 5569.00000 5583.67000  0.26%     -    0s
+     0     0 5579.29545    0   33 5569.00000 5579.29545  0.18%     -    0s
+     0     0 5577.29545    0   41 5569.00000 5577.29545  0.15%     -    0s
+     0     0 5577.24528    0   37 5569.00000 5577.24528  0.15%     -    0s
+     0     0 5576.83594    0   11 5569.00000 5576.83594  0.14%     -    0s
+     0     0 5576.82825    0   25 5569.00000 5576.82825  0.14%     -    0s
+     0     0 5576.82825    0   27 5569.00000 5576.82825  0.14%     -    0s
+     0     0 5576.80984    0   35 5569.00000 5576.80984  0.14%     -    0s
+     0     0 5576.39230    0   31 5569.00000 5576.39230  0.13%     -    0s
+     0     0 5576.39199    0   34 5569.00000 5576.39199  0.13%     -    0s
+     0     0 5576.38562    0   37 5569.00000 5576.38562  0.13%     -    0s
+     0     0 5576.38562    0   11 5569.00000 5576.38562  0.13%     -    0s
+     0     0 5576.38562    0    7 5569.00000 5576.38562  0.13%     -    0s
+     0     0 5576.38562    0   11 5569.00000 5576.38562  0.13%     -    0s
+     0     0 5576.38562    0   32 5569.00000 5576.38562  0.13%     -    0s
+     0     0 5576.38562    0   34 5569.00000 5576.38562  0.13%     -    0s
+     0     0 5576.38562    0   52 5569.00000 5576.38562  0.13%     -    0s
+     0     0 5576.38562    0   35 5569.00000 5576.38562  0.13%     -    0s
+     0     0 5576.35994    0   58 5569.00000 5576.35994  0.13%     -    0s
+     0     0 5576.05185    0   51 5569.00000 5576.05185  0.13%     -    0s
+     0     0 5576.05185    0   56 5569.00000 5576.05185  0.13%     -    0s
+     0     0 5575.96264    0   53 5569.00000 5575.96264  0.13%     -    0s
+     0     0 5575.96264    0   33 5569.00000 5575.96264  0.13%     -    0s
+     0     2 5575.96264    0   33 5569.00000 5575.96264  0.13%     -    0s
+H   97    14                    5574.0000000 5575.49115  0.03%   6.8    0s
+*  103    11               6    5575.0000000 5575.21852  0.00%   7.3    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  MIR: 5
+  StrongCG: 3
+
+Explored 113 nodes (2243 simplex iterations) in 0.48 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 8: 5575 5574 5569 ... 4227
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.575000000000e+03, best bound 5.575000000000e+03, gap 0.0000%
+
+Gurobi 7.5.1 (mac64, Python) logging started Fri Oct 27 15:34:05 2017
+
+Academic license - for non-commercial use only
