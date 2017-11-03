@@ -2084,3 +2084,53 @@ Academic license - for non-commercial use only
 Gurobi 7.5.1 (mac64, Python) logging started Wed Nov  1 13:00:12 2017
 
 Academic license - for non-commercial use only
+
+Gurobi 7.5.1 (mac64, Python) logging started Fri Nov  3 00:35:19 2017
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.1 (mac64, Python) logging started Fri Nov  3 00:36:33 2017
+
+Academic license - for non-commercial use only
+Optimize a model with 181 rows, 5490 columns and 23538 nonzeros
+Variable types: 0 continuous, 5490 integer (5490 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+02, 2e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+03]
+Presolved: 118 rows, 1098 columns, 5107 nonzeros
+
+Continuing optimization...
+
+ 1083893 780517  510.79174   67   49  480.00000  528.78450  10.2%  12.5  464s
+ 1085252 781443  503.58382   82   26  480.00000  528.78185  10.2%  12.5  465s
+ 1096253 789382  483.63110   67   17  480.00000  528.75888  10.2%  12.5  470s
+ 1108931 798244  489.13764   63   29  480.00000  528.73641  10.2%  12.5  475s
+ 1119737 805813  501.06040   59   41  480.00000  528.71728  10.1%  12.4  480s
+ 1132561 814870  525.61576   42   47  480.00000  528.69543  10.1%  12.4  485s
+ 1144348 823294  507.33942  134   13  480.00000  528.67136  10.1%  12.4  490s
+ 1156883 832104  526.54162   47   52  480.00000  528.64895  10.1%  12.4  495s
+ 1165447 838295  517.05481   64   26  480.00000  528.63449  10.1%  12.4  500s
+ 1174449 844729  526.99996   56   44  480.00000  528.62057  10.1%  12.4  505s
+
+Cutting planes:
+  Gomory: 15
+  Cover: 3
+  MIR: 70
+  StrongCG: 34
+  Flow cover: 18
+  GUB cover: 12
+  Zero half: 10
+
+Explored 1175227 nodes (14613241 simplex iterations) in 41.64 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 480 475 435 410 
+
+Solve interrupted
+Best objective 4.800000000000e+02, best bound 5.280000000000e+02, gap 10.0000%
+
+Gurobi 7.5.1 (mac64, Python) logging started Fri Nov  3 09:10:51 2017
+
+Academic license - for non-commercial use only
